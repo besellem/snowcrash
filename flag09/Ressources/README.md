@@ -11,7 +11,7 @@ abcd
 ```
 
 My assertion is that the token has been encrypted by the `flag09` program.  
-`level09` substracts each byte by its value and its index, we can use this algorithm to decrypt the token.
+`level09` adds to each byte its value and its index. We can just reverse this algorithm to decrypt the token.
 
 Dowload the `token` locally (with flag08) and compile `convert_back.c`:
 ```sh
